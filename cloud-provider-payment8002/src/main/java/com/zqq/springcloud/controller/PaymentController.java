@@ -39,5 +39,9 @@ public class PaymentController {
             return new CommonResult(000,"暂无数据！查询id:"+id,null);
         }
     }
+    @GetMapping("/payment/lb")
+    public String getPaymentLB(){
+        return serverPort;
+    }
 
 }

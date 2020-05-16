@@ -5,13 +5,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
 
-/**
- * 使用RestTemplate调用接口
- */
 @Configuration
-public class ApplicationContextConfig {
+public class TemplateFactory {
     @Bean
-    @LoadBalanced//赋予restTemplate负载均衡的能力
+    @LoadBalanced
     public RestTemplate getRestTemplate(){
         return new RestTemplate();
     }
