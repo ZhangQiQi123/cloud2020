@@ -1,6 +1,6 @@
 package com.zqq.springcloud.service;
 
-import com.zqq.springcloud.service.icallback.PaymentHystrixServiceCallback;
+import com.zqq.springcloud.service.impl.PaymentHystrixServiceCallback;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;

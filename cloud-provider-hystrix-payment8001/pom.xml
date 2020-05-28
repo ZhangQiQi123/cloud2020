@@ -27,6 +27,7 @@
         <artifactId>cloud-api-commons</artifactId>
         <version>${api-commons.version}</version>
     </dependency>
+    <!--web-->
     <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-web</artifactId>
