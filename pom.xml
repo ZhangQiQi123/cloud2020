@@ -21,6 +21,7 @@
       <module>cloud-consumer-feign-hystrix-order80</module>
     <module>colud-consumer-hystrix-dashboard9001</module>
       <module>cloud-gateway-gateway9527</module>
+      <module>cloud-config-certer3344</module>
   </modules>
   <packaging>pom</packaging>
   <description>父工程,统一管理jar包版本</description>
