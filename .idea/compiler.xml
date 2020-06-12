@@ -19,6 +19,7 @@
         <module name="cloud-provider-payment8002" />
         <module name="cloud-provider-payment8004" />
         <module name="cloudconfigcerter3344" />
+        <module name="cloudconfigclient3355" />
         <module name="cloudconsumerorder80" />
         <module name="cloudeurekaserver7001" />
         <module name="cloudeurekaserver7002" />
